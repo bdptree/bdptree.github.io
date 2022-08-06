@@ -49,31 +49,6 @@
                                      <button id="bf" type="button" class="btn btn-info btn-block" onclick="dihejk()">点击开始解析</button> 
                                     <button id="bf" type="button" class="btn btn-warning btn-block" onclick="dihejk2()">点击全屏播放解析</button>
                                 </div>
-                            </div>
-                    <!--公告-->
-                        <script type="text/javascript">
-                        $(function () {
-                          function getNowFormatDate() {
-                            var date = new Date();
-                            var month = date.getMonth() + 1;
-                            var strDate = date.getDate();
-                            var currentdate = month + "月" + strDate + "日";
-                            return currentdate;
-                          }
-                          var text = [
-                             "如果你使用手机观看的话，推荐解析后使用全屏观看！",
-                             "如果解析接口有广告，请选择更换接口解析！",
-                             "星语视频解析接口：3个（状态：正常）",
-                             "解析失效请及时联系站长更换！",
-                             "星语解析是免费使用的，请勿被骗！",
-                          ], content = "";
-                          for (var i = 0; i < text.length; i++) {
-                            content += (i + 1) + ". " + text[i] + "\n";
-                          }
-                          setTimeout(function () {
-                            swal(getNowFormatDate() + "通知", content, "success");
-                          }, 1000)
-                        })
-                      </script>
+                            </div>        
                         </body>
                     </html>
